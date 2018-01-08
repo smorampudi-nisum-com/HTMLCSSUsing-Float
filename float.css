@@ -1,0 +1,225 @@
+.center {
+    text-align: center;
+    
+}
+body {
+    text-rendering: optimizeLegibility;
+    font-family: "PT Serif",Georgia,Cambria,"Times New Roman",Times,serif;
+    line-height: 1.55;
+    color: #1c1c1c;
+    }
+
+h4{
+	letter-spacing: .15em;
+    text-transform: uppercase;
+    font-size: .94118rem;
+    font-weight: 400;
+    word-wrap: break-word;
+    clear: both;
+    color: #858585;
+    margin: 0;
+    display: block;
+    padding-top: 7px;
+}
+#nav {
+	width: 50%;
+	float: left;
+	margin-top: 2%;
+	padding: 0;
+	background-color: #f2f2f2;
+	border-bottom: 1px solid #ccc;
+	border-top:1px solid #ccc;
+	text-align: center; 
+	margin-right: 20%;
+	margin-left: 25%; }
+#nav ul {
+	list-style: none;
+	margin: 0 auto;
+	padding: 0; }
+#nav li {
+	float: left; }
+#nav li a {
+	display: inline-block;
+	padding: 20px 15px;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 12px;
+	color: grey;
+	border-right: 1px solid #e3e3e3; }
+#nav li:first-child a {
+
+	border-left: 1px solid #e3e3e3; }
+#nav li a:hover {
+	color: black;
+	background-color: #f2f2f2; }
+.column {
+    
+    padding: 10px;
+}
+
+.left {
+  width: 55%;
+    height: 300px;
+    float: left;
+    /*background-color: aqua;*/
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.right {
+  width: 30%;
+    height: 300px;
+    float: right;
+    margin-right: 60px;
+    margin-top: 48px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+nav{
+	text-align: center;
+    margin: 24px 0 72px;
+    margin: 1.41176rem 0 4.23529rem;
+    color: #858585;
+    font-family: "Source Sans Pro",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    word-spacing: -.05em;
+    line-height: 1.48;
+    font-size: 14px;
+    font-size: .82353rem;
+    word-spacing: 0;
+}
+.clear{
+	    clear: both;
+	    zoom:1;
+}
+#container{
+	max-width: 1300px;
+    margin: 0 auto;
+    background: #fdfdfd;
+    zoom: 1;
+    padding: 28px;
+    padding: 1.64706rem;
+    padding-bottom: 48px;
+    padding-bottom: 2.82353rem;
+}
+h3.widgettitle {
+    font-family: "Source Sans Pro",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    text-transform: lowercase;
+    font-variant: small-caps;
+    letter-spacing: .1em;
+    color: #474747;
+    font-weight: 600;
+    line-height: 1;
+    font-size: 18px;
+    font-size: 1.05882rem;
+    margin: 0 0 12px;
+    margin: 0 0 .70588rem;
+}
+.img {
+  height: 2200px;
+  width: 1px;
+  background: black;
+  margin-top:90px;
+  position: absolute;
+  left: 60%;
+}
+.txt{
+
+	text-align: justify;
+    text-justify: inter-word;
+    display:block;
+    word-wrap: break-word;
+    color: #858585;
+    font-family: "Source Sans Pro",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+    word-spacing: -.05em;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.b {
+display:inline-block;
+position: relative;
+margin: 1%;
+float:left;
+width:23%;
+height:40px;
+background-color: black;
+}
+.ttt{
+
+	text-align:center;
+	font-family: "Source Sans Pro",Helvetica,Arial,Verdana,Tahoma,sans-serif;
+	color:white; 
+	margin-top:2px;
+}
+.tags-button button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin: 3px 1px;
+    
+}
+.search input[type=text] {
+    /* float: right; */
+    padding: 10px 100px 10px 10px;
+    margin-top: 25px;
+    margin-right: 16px;
+    border: 1px solid #e3e3e3;
+    font-size: 12px;
+  }
+  .img1{
+  	border: 1px solid;
+    height: 360px;
+  }
+.ryt{
+	float:right;
+}
+.clr{
+	color:red;
+}
+.block-2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    /* border-bottom: 1px solid #e3e3e3; */
+}
+.block-2-content{
+    float:right;
+    margin-top:2%;
+    max-width: 54.82759%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+hr{
+	width:100%;
+}
+.side-list{
+      margin-top:30px;
+  }
+  .side-list li{
+      font-size: 15px;
+  }
+  figure {
+    display: inline-block;
+        height: 15px;
+    width: 120px;
+}
+.block7-button{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 30px 2px;
+    cursor: pointer;
+}
